@@ -2,7 +2,7 @@
 layout: post
 title: Sri Lanka’s Looming Energy Crisis-  Peak Demand Poised to Outstrip Maximum Supply Around 2028
 date: 2026-05-07
-tags: [Energy Storage]
+tags: [Energy Storage, Photovoltaics]
 ---
 
 Sri Lanka stands at the threshold of a structural energy challenge. According to the Ceylon Electricity Board’s (CEB) *Long-Term Generation Expansion Plan (LTGEP) 2025–2044*, night-time peak demand was forecast to reach approximately **3,101 MW** and day-time peak **3,190 MW** by 2028 — levels that would test the limits of the country’s generation and transmission infrastructure. Yet real-world data shows the timeline accelerating: the system already recorded an all-time high peak of **3,089 MW** in March 2026, driven by post-crisis economic recovery, surging air-conditioning use, industrial growth, and the rapid adoption of electric vehicles (EVs). Without urgent intervention, peak demand risks outgrowing reliable peak supply capacity by 2028, leading to higher tariffs, increased curtailment of renewables, and potential reliability issues.
