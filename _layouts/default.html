@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+    :root { --emerald: #10b981; }
+    body { font-family: 'Inter', system_ui, sans-serif; }
+    .heading { font-family: 'Space Grotesk', sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%); }
+    .glass { background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(12px); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  <script>
+    tailwind.config = {
+      content: ["./**/*.html"],
+      theme: { extend: {} }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+# ====================
+# Jekyll
+# ====================
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/bundle/
+
+# ====================
+# Bundler / Ruby
+# ====================
+Gemfile.lock
+.bundle/
+vendor/
+
+# ====================
+# OS generated files
+# ====================
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================
+# IDE / Editor files
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# ====================
+# Logs & temporary files
+# ====================
+*.log
+tmp/
+temp/
