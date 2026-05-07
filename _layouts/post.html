@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="container section">
+  <div style="max-width: 760px; margin: 0 auto;">
+    <div style="margin-bottom: 40px;">
+      <a href="/blog" class="label muted" style="display:inline-flex;align-items:center;gap:8px;transition:color .2s;" onmouseenter="this.style.color='var(--amber)'" onmouseleave="this.style.color=''">
+        ← Back to Blog
+      </a>
+    </div>
+
+    <p class="label teal anim-1" style="margin-bottom:16px;">
+      {{ page.date | date: "%B %d, %Y" }}
+    </p>
+
+    <h1 class="d-lg anim-2" style="margin-bottom: 32px;">{{ page.title }}</h1>
+
+    {% if page.tags %}
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:40px;" class="anim-3">
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <hr class="hr" style="margin-bottom:48px;">
+
+    <div class="prose anim-4">
+      {{ content }}
+    </div>
+  </div>
+</article>

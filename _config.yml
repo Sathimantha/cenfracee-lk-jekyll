@@ -1,5 +1,8 @@
-title: Cenfracee
-description: Pioneering clean energy, advanced materials, and resource recovery.
+title: Cenfracee Pvt Ltd
+description: Resource technology for a smarter Sri Lanka. Flash chemistry, advanced electrochemistry, mining, and printed photovoltaics.
 baseurl: ""
-url: "https://cenfracee.com"
+url: "https://cenfracee.lk"
 permalink: /blog/:title/
+
+# Build settings
+markdown: kramdown

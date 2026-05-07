@@ -1,23 +1,38 @@
 ---
-layout: default
+layout: post
 title: Pioneering Sustainable Energy Solutions in 2026
 date: 2026-05-07
+tags: [Energy Storage, Flash Joule, Iron Batteries]
 ---
 
-<div class="max-w-4xl mx-auto px-6 py-12 prose prose-invert">
-  <h1 class="heading text-5xl font-bold mb-8">{{ page.title }}</h1>
-  
-  <p class="lead text-xl text-slate-300">At Cenfracee, we're not just following the energy transition — we're building the tools that make it practical, scalable, and profitable.</p>
+At Cenfracee, we're not just following the energy transition — we're building the tools that make it practical, scalable, and locally rooted.
 
-  <h2 class="heading text-3xl mt-16 mb-6">Why Iron-Based Redox Flow Batteries Matter</h2>
-  <p>Our latest work in iron flow batteries offers a safe, long-duration storage solution that uses abundant materials and avoids the pitfalls of lithium and vanadium systems.</p>
+## Why Iron-Based Redox Flow Batteries Matter
 
-  <h2 class="heading text-3xl mt-16 mb-6">Flash Joule Graphene: From Waste to Wonder</h2>
-  <p>Using lightning-fast heating, we transform everyday carbon sources into high-performance graphene — perfect for tires, concrete, and next-gen batteries.</p>
+Most energy storage conversations centre on lithium. We went a different direction. Our work on all-iron redox flow batteries offers a long-duration storage solution built from one of the most abundant elements on earth — iron. No lithium, no cobalt, no vanadium sourcing headaches.
 
-  <div class="bg-slate-900 rounded-3xl p-8 my-12 text-center">
-    <p class="text-emerald-400 font-semibold">The future is being built today — one innovative material and electrochemical breakthrough at a time.</p>
-  </div>
+The electrolyte is ferrous/ferric chloride in aqueous solution. The membranes are our own sulfonated polyethylene cation-exchange films. The stacks are modular and repairable in the field. When a cell degrades, you replace it. When the electrolyte is spent, you regenerate it electrochemically.
 
-  <p>Stay tuned as we continue to unlock new technologies that bridge the gap between science and real-world impact.</p>
-</div>
+This is what practical, durable energy storage looks like at the grid edge.
+
+## Flash Joule Graphene: From Waste to Wonder
+
+Using millisecond joule-flash heating, we transform local carbon feedstocks into turbostratic graphene — the high-performance variant that doesn't require perfect AB stacking and is far easier to synthesise at scale.
+
+The applications compound:
+
+- As a carbon black replacement in tyre compounds, improving wet traction and rolling resistance simultaneously
+- As an electrode additive in our iron flow battery stacks, improving conductivity and cycle life
+- As a concrete admix, reducing required cement content while improving compressive strength
+
+One unlock feeds three downstream verticals. This is the Cenfracee model.
+
+## What's Next
+
+We are currently running sodium hypochlorite cell trials — producing the chlor-alkali chemistry backbone that feeds our refinery operations, battery electrolyte synthesis, and bleach production. The membrane work is in parallel. The field prospecting continues.
+
+The loops are being built, one unlock at a time.
+
+> "The future is being built today — one electrochemical breakthrough and one refined gram of gold at a time."
+
+Stay tuned.

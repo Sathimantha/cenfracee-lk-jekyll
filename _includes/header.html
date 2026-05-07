@@ -1,20 +1,56 @@
-<header class="border-b border-slate-800 bg-slate-950 sticky top-0 z-50">
-  <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-    <a href="/" class="flex items-center gap-3">
-      <div class="w-9 h-9 bg-emerald-500 rounded-2xl flex items-center justify-center text-white font-bold text-2xl">C</div>
-      <span class="heading text-3xl tracking-tighter font-semibold">Cenfracee</span>
-    </a>
-    
-    <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
-      <a href="/" class="hover:text-emerald-400 transition">Home</a>
-      <a href="/blog" class="hover:text-emerald-400 transition">Blog</a>
-      <a href="/contact" class="hover:text-emerald-400 transition">Contact</a>
-    </nav>
+<header id="site-header" style="
+  position: fixed; top: 0; left: 0; right: 0; z-index: 500;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 48px; height: 72px;
+  background: rgba(7,7,10,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  transition: border-color .3s;
+">
+  <!-- amber progress line at very top -->
+  <div style="position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg, var(--amber) 0%, var(--teal) 100%);opacity:.7;"></div>
 
-    <a href="/contact" 
-       class="px-6 py-3 bg-emerald-500 hover:bg-emerald-600 transition rounded-2xl font-semibold text-sm flex items-center gap-2">
-      <i class="fa-solid fa-paper-plane"></i>
-      Get in Touch
-    </a>
-  </div>
+  <!-- Logo -->
+  <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+    <div style="
+      width:32px;height:32px;
+      border:1px solid var(--amber);
+      display:flex;align-items:center;justify-content:center;
+      font-family:var(--display);font-size:1.3rem;
+      color:var(--amber);
+      transition:background .2s,color .2s;
+    " onmouseenter="this.style.background='var(--amber)';this.style.color='var(--bg)'"
+       onmouseleave="this.style.background='';this.style.color='var(--amber)'">C</div>
+    <span style="font-family:var(--display);font-size:1.6rem;letter-spacing:.06em;color:var(--text);">
+      CENF<span style="color:var(--amber);">R</span>ACEE
+    </span>
+  </a>
+
+  <!-- Nav -->
+  <nav style="display:flex;align-items:center;gap:40px;">
+    <a href="/" class="label" style="color:var(--muted);transition:color .2s;"
+      onmouseenter="this.style.color='var(--text)'" onmouseleave="this.style.color='var(--muted)'">Home</a>
+    <a href="/blog" class="label" style="color:var(--muted);transition:color .2s;"
+      onmouseenter="this.style.color='var(--text)'" onmouseleave="this.style.color='var(--muted)'">Blog</a>
+    <a href="/contact" class="label" style="color:var(--muted);transition:color .2s;"
+      onmouseenter="this.style.color='var(--text)'" onmouseleave="this.style.color='var(--muted)'">Contact</a>
+  </nav>
+
+  <!-- CTA -->
+  <a href="/contact" class="btn btn-amber" style="font-size:.62rem;">
+    Get in Touch
+    <span>→</span>
+  </a>
+
+  <!-- Mobile hamburger placeholder -->
+  <button id="mob-menu-btn" style="display:none;background:none;border:none;color:var(--text);font-size:1.4rem;cursor:none;">☰</button>
 </header>
+
+<style>
+  @media (max-width: 768px) {
+    #site-header { padding: 0 24px; }
+    #site-header nav { display: none; }
+    #site-header .btn { display: none; }
+    #mob-menu-btn { display: block !important; }
+  }
+</style>
